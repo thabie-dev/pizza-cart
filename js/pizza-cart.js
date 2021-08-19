@@ -32,7 +32,7 @@ var largeQty = 0;
 var totalCart = 0;
 
 function BtnClick(event) {
-    alert(event)
+    
     if (event.target.className == "pBtn small" || event.target.className == "pBtn small buy") {
         smallQty++;
         smallPizzaQty.innerHTML = smallQty;
